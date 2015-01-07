@@ -17,10 +17,12 @@ To add this library as a submodule, execute the following commands inside of you
 
 Use the following table to see what branch to use for the corresponding version of Bitters.
 
-| Version | Branch | Release Date   |
-| ------- | ------ | -------------- |
-| 0.10.1  | v0_10  | September 2014 |
+| Version  | Branch     | Release Date   |
+| -------- | ---------- | -------------- |
+| 0.10.1   | v0_10      | September 2014 |
+| 0.10.1*  | v0_10-neat | September 2014 |
 
+\* The Bitters library either works with Neat or without Neat, if you are using Bitters together with Neat, use the `v0_10-neat` branch as it will have a modified `_base.scss` file with a Neat import ready.
 
 ## Credits
 
