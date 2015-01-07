@@ -1,4 +1,33 @@
 lib-bitters
 ===========
 
-A mirror of Thoughtbot's SCSS Bitters library to be used as a submodule
+This is a replica of [Thoughtbot's Sass Bitters library](https://github.com/thoughtbot/bitters) but provided in a format that can be used as a submodule for other git projects to avoid having to add Bitter files to source control.
+
+Usage
+---
+
+### Adding as a submodule
+
+To add this library as a submodule, execute the following commands inside of your project. This will add this library as a submodule and checkout the current 0.10.1 version into a folder called "bitters."
+
+	git submodule add -b v0_10 https://github.com/Sujevo/lib-bitters bitters
+	git submodule update --remote
+
+### Current Hosted Versions
+
+Use the following table to see what branch to use for the corresponding version of Bitters.
+
+| Version | Branch | Release Date   |
+| ------- | ------ | -------------- |
+| 0.10.1  | v0_10  | September 2014 |
+
+
+## Credits
+
+[![thoughtbot](http://images.thoughtbot.com//thoughtbot-logo.svg)](http://thoughtbot.com)
+
+Bitters is maintained and funded by [thoughtbot, inc](http://thoughtbot.com). Tweet your questions or suggestions to [@bourbonsass](https://twitter.com/bourbonsass) and while you’re at it follow us too.
+
+## License
+
+Copyright © 2011–2014 [thoughtbot, inc](http://thoughtbot.com). Bitters is free software, and may be redistributed under the terms specified in the [license](https://github.com/thoughtbot/bitters/blob/master/LICENSE.md).
