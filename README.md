@@ -24,7 +24,7 @@ Use the following table to see what branch to use for the corresponding version 
 
 ## Credits
 
-[![thoughtbot](http://images.thoughtbot.com//thoughtbot-logo.svg)](http://thoughtbot.com)
+[![thoughtbot](http://images.thoughtbot.com/bourbon/thoughtbot-logo.svg)](http://thoughtbot.com)
 
 Bitters is maintained and funded by [thoughtbot, inc](http://thoughtbot.com). Tweet your questions or suggestions to [@bourbonsass](https://twitter.com/bourbonsass) and while you’re at it follow us too.
 
