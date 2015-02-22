@@ -8,9 +8,9 @@ Usage
 
 ### Adding as a submodule
 
-To add this library as a submodule, execute the following commands inside of your project. This will add this library as a submodule and checkout the current 0.10.1 version into a folder called "bitters."
+To add this library as a submodule, execute the following commands inside of your project. This will add this library as a submodule and checkout the current 1.0.0 version into a folder called "bitters."
 
-	git submodule add -b v0_10 https://github.com/Sujevo/lib-bitters bitters
+	git submodule add -b v1_0 https://github.com/Sujevo/lib-bitters bitters
 	git submodule update --remote
 
 ### Current Hosted Versions
@@ -19,13 +19,16 @@ Use the following table to see what branch to use for the corresponding version 
 
 | Version  | Branch           | Release Date   |
 | -------- | ---------------- | -------------- |
+| 1.0.0    | v1_0             | January 2014   |
+| 1.0.0*   | v1_0-neat        | January 2014   |
+| 1.0.0^   | v1_0-neat-rails  | January 2014   |
 | 0.10.1   | v0_10            | September 2014 |
 | 0.10.1*  | v0_10-neat       | September 2014 |
 | 0.10.1^  | v0_10-neat-rails | September 2014 |
 
-\* The Bitters library either works with Neat or without Neat, if you are using Bitters together with Neat, use the `v0_10-neat` branch as it will have a modified `_base.scss` file with a Neat import ready.
+\* The Bitters library either works with Neat or without Neat, if you are using Bitters together with Neat, use the `v1_0-neat` branch as it will have a modified `_base.scss` file with a Neat import ready.
 
-\^ The Bitters library can be incorporated in a Rails project automatically so imports are handled specially. If you're not using Rails, then do not use this branch and use `v0_10-neat` instead which has a relative path to Neat helpers.
+\^ The Bitters library can be incorporated in a Rails project automatically so imports are handled specially. If you're not using Rails, then do not use this branch and use `v1_0-neat` instead which has a relative path to Neat helpers.
 
 ## Credits
 
